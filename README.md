@@ -19,13 +19,13 @@ The react-native part of this project will be VERY basic, since I have no prior 
 4. Run `npm i react-native-ble-plx`
 5. Run `react-native link react-native-ble-plx`
 6. Open build.gradle of app module make sure that min SDK version is at least 18:
-
+```
 android {
     ...
     defaultConfig {
         minSdkVersion 18
         ...
-
+```
 7. In AndroidManifest.xml, add Bluetooth permissions and update `<uses-sdk/>`:
 
 ```
